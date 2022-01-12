@@ -88,25 +88,51 @@ be?
 (d) What are the mole fractions of N$_2$O$_4$ and NO$_2$ once the pressure stabilizes at
 2.96atm?
 
-\vspace{2.5in}
+\pagebreak
 
-5. (6 pts) \textbf{Barometric Formula} The barometric formula is a model that predicts the
-changes of air pressure depending on the altitude. This formula assumes ideal
-gas conditions at constant temperature T. Derive the barometric formula.
+5. (8 pts) \textbf{Barometric Formula} The barometric formula is a model that predicts the
+air pressure depending on the altitude. This formula assumes ideal gas conditions at constant
+temperature T. Use the following steps to derive the barometric formula.
 
-(a) Draw a free body diagram of a volume of air. Define all variables. \textit{Hint:}
-The net force equals zero.
+(a) Draw a free body diagram for a volume of air at some altitude. Define all variables. \textit{Hint:}
+To get started, an illustration below is a volume of air defined by area (A) and height (dh).
+Set up your axis system and draw all forces acting on the air.
+\begin{center}
+  \includegraphics[scale=0.3]{air_vol.png}
+\end{center}
 
-(b) Invoke the ideal gas law to replace variables in terms of pressure, temperature, and
-volume.
+(b) Based on the axis system, write an equation involving all forces acting on the air.
+\textit{Hint:} The net force equals zero.
 
-(c) Solve for pressure and integrate.
+(c) Invoke the ideal gas law to replace variables in terms of molar mass, pressure,
+temperature, and volume. Solve for pressure.
+
+(d) The expression in (c) is a first order homogeneous linear differential equation and
+has the form,
+\begin{equation}
+  \frac{dy}{dt} = -p(t)y.
+\end{equation}
+The solution can be determined via integration and has the form,
+\begin{equation}
+  y = Ce^{P(t)}
+\end{equation}
+where $P(t)$ is the antiderivative of $-p(t)$ and $C$ is a constant. Solve the differential
+equation in (c).
+
+(e) Mount Everest is Earth's highest mountain at 29,032 feet (8,848 meters). Each year,
+approximately 1000 people hike Mount Everest. Use the expression in (d), estimate the
+barometric pressure at the summit where the temperature is $-9^\circ\text{C}$.
+
+%A hiker brings a mercury
+%barometer to measure the height of Mount Everest. At the summit, the hiker reports the
+%barometric pressure to be 253.0 Torr at $-9^\circ\text{C}$. Use the derived barometric
+%formula to approximate the height of Mount Everest. Report to 4 significant figures.
 
 % Deriving the Barometric Formula online
 %
 % https://www.youtube.com/watch?v=anAMD_KeB0s
 
-\vspace{3in}
+\pagebreak
 
 \textbf{First Law of Thermodynamics}
 
