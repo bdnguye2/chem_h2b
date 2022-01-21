@@ -1,0 +1,85 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Preamble
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt]{article}
+%
+% Packages and other includes
+% Pagination
+\usepackage[letterpaper, margin=1in]{geometry}
+\usepackage{emptypage}
+%
+% Fonts
+\usepackage[T1]{fontenc} % best for Western European languages
+\usepackage{lmodern} % Latin Modern instead of CM
+\usepackage{textcomp} % required to get special symbols
+%
+% Math
+\usepackage{amsmath, amssymb}
+\usepackage{braket}
+%
+% Graphics, floats, tables
+\usepackage{graphicx, color, float, array}
+%
+% Hyperlinks
+\usepackage{hyperref}
+%
+%
+% Definitions and settings
+% Paragraph indent and spacing
+\setlength{\parskip}{0.4\baselineskip}
+\setlength{\parindent}{0in}
+%
+%
+% Title, authors, date
+\title{\textbf{Midterm Problems}}
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Main document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+
+\begin{document}
+
+\maketitle
+
+1. \textbf{Barometric Formula} The barometric formula is given by
+\begin{equation*}
+  P_h = P_0 e^{-\frac{Mgh}{RT}}
+\end{equation*}
+where $P_h$ is the pressure at height $h$, $P_0$ is the pressure at ground level,
+$M$ is the molar mass of air (28.97 g/mol), $R$ is the gas constant, and $T$ is the
+temperature. This formula has been used to approximate the elevations of mountains.
+
+(a) A hiker brings a mercury barometer to measure the height of Mount Everest. At the
+summit, the hiker reports the barometric pressure to be 253.0 Torr at $-9^\circ\text{C}$.
+Use the derived barometric formula to approximate the height of Mount Everest.
+
+(b) Mount Everest has an official height of 8,485 meters. Is the calculated height in
+(a) overestimated or underestimated? Explain potential errors.
+
+(c) Given the barometric pressure in (a), compute the partial pressure of O$_2$(g) assuming
+that the atmosphere is made of $20\%$ O$_2$. Given the oxyhemoglobin dissociation curve,
+estimate the percent hemoglobin saturated with O$_2$.
+
+\begin{center}
+  \includegraphics[scale=0.24]{hbo2.png}
+\end{center}
+
+%
+% https://penelope.uchicago.edu/Thayer/E/Journals/ISIS/12/3/Determinations_of_Heights_of_Mountains*.html
+%
+% barometric pressure - 242 mmHg or 0.318 atm; P_O2 = 0.0668 atm or 50.8 mmHg
+%
+%A hiker brings a mercury
+%barometer to measure the height of Mount Everest. At the summit, the hiker reports the
+%barometric pressure to be 253.0 Torr at $-9^\circ\text{C}$. Use the derived barometric
+%formula to approximate the height of Mount Everest. Report to 4 significant figures.
+%
+% Deriving the Barometric Formula online
+%
+% https://www.youtube.com/watch?v=anAMD_KeB0s
+
+\pagebreak
+
+\end{document}
