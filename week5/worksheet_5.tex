@@ -7,6 +7,9 @@
 % Pagination
 \usepackage[letterpaper, margin=1in]{geometry}
 \usepackage{emptypage}
+\usepackage[backend=biber,style=chem-acs]{biblatex}
+\addbibresource{references.bib}
+
 %
 % Fonts
 \usepackage[T1]{fontenc} % best for Western European languages
@@ -44,15 +47,17 @@
 
 \maketitle
 
-Weekly homework assignments are posted approximately one week prior to the
-due date. Collaborations are encouraged and students must report all collaborators
-in writing on each assignment. All external sources (websites, books) must be
-properly cited. Additional problems are listed at the end of each assignment.
-This week's assignment is due \textit{Tuesday, Feb 8th at 10:00am.}
+Collaborations are encouraged and students must report all collaborators
+on each assignment. All external sources (websites, books) must be
+cited. An \textit{extra credit} (\textit{EC}) problem will be available per
+assignment. Please submit a completed homework on-time to receive \textit{EC}
+and no partial \textit{EC} (all parts must be correct) will be given out.
+Additional problems are listed at the end of each assignment. This week's
+assignment is due \textit{Tuesday, Feb 8th at 10:00am.}
 
 \textbf{Enthalpy $\Delta H$, Entropy $\Delta S$, and Free Energy $\Delta G$}
 
-1. Determine $\Delta S_\text{sys}$, $\Delta S_\text{surr}$, and $\Delta S_\text{tot}$ for the
+1. (2 pts) Determine $\Delta S_\text{sys}$, $\Delta S_\text{surr}$, and $\Delta S_\text{tot}$ for the
 following processes of 1.48 mols of ideal gas molecules from 13.17 atm and 0.447 atm
 and 1.29 L at 350K. Report results to 3 significant figures.
 
@@ -62,12 +67,12 @@ and 1.29 L at 350K. Report results to 3 significant figures.
 
 \vspace{2.5in}
 
-2. Determine the change in entropy if 2 gallons of water at $93^\circ\text{C}$ is added to
+2. (2 pts) Determine the change in entropy if 2 gallons of water at $93^\circ\text{C}$ is added to
 1.25 gal of water at $25^\circ\text{C}$. Report results to 3 significant figures.
 
 \vspace{2.5in}
 
-3. Diethyl zinc is a highly reactive compound when it comes into contact with oxygen molecules
+3. (4 pts) Diethyl zinc is a highly reactive compound when it comes into contact with oxygen molecules
 to form zinc oxide, carbon dioxide, and water at 298K. Determine the following and report results
 to 3 significant figures.
 
@@ -80,7 +85,7 @@ at room temperatue?
 
 \vspace{2.5in}
 
-4. Acetic acid, CH$_3$COOH(l), could be produced from the reactions of methanol with carbon monoxide,
+4. (4 pts) Acetic acid, CH$_3$COOH(l), could be produced from the reactions of methanol with carbon monoxide,
 the oxidation of ethanol, or the reaction of carbon dioxide with methane.
 
 (a) Write balanced chemical equations including states for each process.
@@ -103,7 +108,7 @@ to 4 significant figures.
 %
 %\pagebreak
 
-5. \textbf{Carnot Cycle} The steam engine played an important role during the industrial
+5. (8 pts) \textbf{Carnot Cycle} The steam engine played an important role during the industrial
 revolution. A French engineer Nicolas L\'{e}onard Sadi Carnot investigated the efficiency
 of the heat engine. For an ideal gas, he developed the most efficient engine known as the Carnot cycle, see
 Fig. \ref{fig:carnot}. The cycle consists of four processes: (i) Reversible isothermal expansion,
@@ -127,6 +132,39 @@ at each step of the Carnot cylce. Define all variables.
   \caption{Illustration of the carnot cycle and PV diagram.}
   \label{fig:carnot}
 \end{figure}
+
+\pagebreak
+
+\textbf{Gibbs Free Energy}
+
+6. (7 pts) \textit{Extra Credit:} In biology, biochemical processes are often unfavorable and
+requires coupling them to a favorable reaction. For example, adenosine triphosphate (ATP) is
+the primary energy source for living cells and drives vital nonspontaneous chemical reactions.
+However, the formation of ATP is an unfavorable process. Cells use oxidative phosphorylation
+to generate ATP at pH = 7:
+\begin{enumerate}
+\item ADP$^{3-}$(aq) + HPO$^{2-}_4$(aq) + H$^+$(aq) $\rightarrow$ ATP$^{4-}$(aq) +H$_2$O(l)
+  \hfill $\Delta G = +30.5 \text{kJ}$
+\item NADH(aq) $\rightarrow$ NAD$^+$(aq) + H$^+$(aq) + 2 e$^-$
+  \hfill $\Delta G = -158.3 \text{kJ}$
+\item $\frac{1}{2}$ O$_2$(g) + 2 H$^+$(aq) + 2 e$^-$ $\rightarrow$ H$_2$O(l)
+  \hfill $\,\Delta G = -61.9 \text{kJ}$
+\end{enumerate}
+
+Report all results to 3 significant figures.
+
+(a) The oxidative phosphorylation is highly efficient.\autocite{Wikstrom2020} Assuming 90$\%$
+efficiency, what amount (in moles) of ATP could be formed if 4.50 mol NADH were used to
+generate ATP?
+
+(b) Since only $90\%$ of the energy goes into synthesizing ATP, what happened to the remaining
+energy? 
+
+(c) In bacteria, acetyl phosphate plays an important role to regulate metabolic functions.
+When there is a lack of acetate, bacteria hydrolyze acetyl phosphate to release acetate
+and continue the Kreb Cycle. This reaction has $\Delta G = -41 \text{kJ/mol}$ at pH = 7. To
+replenish acetyl phosphate, what is the minimum amount of ATP molcules (in moles) that would
+have to be hydrolyzed to form 1.37 mol acetyl phosphate molecules by phosphorylation of acetic acid?
 
 %2. \textbf{Born--Haber Cycle} (6 pts) Ionic solids are extremely stable and lattice energy
 %is an additional energy contribution to the overall stability. However, the lattice
