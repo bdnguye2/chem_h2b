@@ -7,6 +7,7 @@
 % Pagination
 \usepackage[letterpaper, margin=1in]{geometry}
 \usepackage{emptypage}
+\usepackage{xcolor}
 %
 % Fonts
 \usepackage[T1]{fontenc} % best for Western European languages
@@ -32,6 +33,7 @@
 %
 % Title, authors, date
 \title{\textbf{Midterm answers}}
+\date{February 3, 2022}
 %
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -43,51 +45,114 @@
 
 \maketitle
 
-1. a) $8.50*10^3$ meters
+1. \textbf{Barometric Formula} The barometric formula is given by
+\begin{equation*}
+  P_h = P_0 e^{-\frac{Mgh}{RT}}
+\end{equation*}
+where $P_h$ is the pressure at height $h$, $P_0$ is the pressure at ground level,
+$M$ is the molar mass of air (28.97 g/mol), $R$ is the gas constant, and $T$ is the
+temperature. This formula has been used to approximate the elevation of mountains.
+Report to 3 significant figures.
 
-b) Overestimation. A potential error is that deriving the barometric formula assumes
-a constant temperature. This is not true in reality since temperature decreases
-going higher in altitude.
+(a) A hiker brings a mercury barometer to measure the height of Mount Everest. At the
+summit, the hiker reports the barometric pressure to be 253.0 Torr at $-9^\circ\text{C}$.
+Use the barometric formula to approximate the height of Mount Everest.
 
-c) P(O$_2$)=53.1 torr, around 75$\%$ Hb saturation
+(b) Mount Everest has an official height of 8,485 meters. Is the calculated height in
+(a) overestimated or underestimated? Explain potential errors.
 
-2. a)
+(c) Given the barometric pressure in (a), compute the partial pressure of O$_2$(g) at the summit
+(P$_{O2}$) assuming that the atmosphere is made of $21\%$ O$_2$. With the oxyhemoglobin dissociation
+curve, estimate the percent hemoglobin saturated with O$_2$ assuming that the P$_{\text{O}2}$ in the blood
+is equivalent to the P$_{\text{O}2}$ at the summit.
 
-\begin{center}
-  \includegraphics[scale=0.15]{sketch.png}
-\end{center}
+\begin{quote}
+  {\color{blue}
+    a) $8.50*10^3$ meters
 
-b) $W = -nRT\ln \frac{V_f}{V_i} =  5470\text{J/mol}$ and $Q=-5470\text{J/mol}$
+    b) Overestimation. A potential error is that deriving the barometric formula assumes
+    a constant temperature. This is not true in reality since temperature decreases
+    going higher in altitude.
 
-c) $P= nRT/V_f = 9.87\text{atm}$
+    c) P(O$_2$)=53.1 torr, around 75.0$\%$ Hb saturation
+  }
+\end{quote}
 
-3. The world energy crisis is the depletion of fossil fuels or nonrenewable
-resources. This is imprecise because energy is neither created nor destroyed based
-on 1st of thermodynamics. The energy crisis is related to global warming due the
-increase in greenhouse gases such as CO$_2$ leading to less heat escaping the
-atmosphere.
+2. \textbf{Isothermal Compression} Suppose 1.87 moles of Cl$_2$(g) at $35^\circ\text{C}$ are
+compressed isothermally from a volume of 15.0L to 4.79L. Report to 3 significant figures.
 
-4. a) S$_8$(s) + 8 O$_2$(g) $\rightarrow$ 8 SO$_2$(g)
+(a) Sketch the process on the $PV$ diagram. Define all variables and show what corresponds
+to the work ($w$) done on the gas
 
-b) $Q = C\Delta T = -530*(304.7 - 296) = -4.611\text{kJ}$
+(b) Compute the work ($w$) and the heat ($q$) in kJ/mol.
 
-c) $\Delta H_r = \frac{Q}{n_r} = \frac{-4.611}{1/(8*32.05)} -1183\text{kJ/mol}$
+(c) What is the final pressure of the gas?
 
-d) $\Delta H^\circ_f = -147.8\text{kJ/mol}$
+\begin{quote}
+  {\color{blue}
+    a) \includegraphics[scale=0.125]{sketch.png}
+    
+    b) $W = -nRT\ln \frac{V_f}{V_i} =  5470\text{J/mol}$ and $Q=-5470\text{J/mol}$
+    
+    c) $P= nRT/V_f = 9.87\text{atm}$
+  }
+\end{quote}
 
-(These values are off by a factor of 2. Need to double the $\Delta T$ or $C$)
+3. Explain in a few sentences what is meant by the ``world energy crisis'' and why
+this colloquial term is imprecise in the context of thermodynamics. How is the
+``world energy crisis'' related to global warming?
 
-5. $m_h$ is mass (kg) of hot bath, $m_c$ is the mass (kg) of the cold tap water, $C$ is
-heat capacity of water and $\Delta T$ is the change in temperature
+\begin{quote}
+  {\color{blue} Mention the 1st law of thermodynamics and greenhouse gases such as
+    CO$_2$ leading to less heat escaping the atmosphere.
+  }
+\end{quote}
 
-\begin{align}
-  m_h C \Delta T_h & = m_c C \Delta T_c \\
-  m_h \Delta T_h & = m_c \Delta T_c \\
-  -283.0543*(40 - 43.3333) & = m_c (40 - 10) \\
-  m_c = 31.450446
-\end{align}
+4. Quantitative combustion of 1 g of elemental sulfur, S$_8$(s) ($M = 256.48$ g/mol),
+to sulfur dioxide gas increases the temperature of a bomb calorimeter from 296 K to
+313.5 K. The heat capacity of the calorimeter is 530 J/K. Report all results to 4
+significant figures.
 
-The volume needed is 8.332 galllons of $50^\circ\text{F}$
+a) Formulate a balanced chemical equation for the reaction including states.
+
+b) Determine the energy of reaction.
+
+c) Your result from b) is a good estimate for the standard energy of reaction. Using this
+estimate, determine the standard enthalpy of reaction assuming ideal gas behavior.
+
+d) Estimate the standard enthalpy of formation of gaseous sulfur dioxide from these data.
+
+\begin{quote}
+  {\color{blue}
+    a) S$_8$(s) + 8 O$_2$(g) $\rightarrow$ 8 SO$_2$(g)
+
+    b) $Q = C\Delta T = -9.275\text{kJ}$
+
+    c) $\Delta H_r = \frac{Q}{n_r} = -2379\text{kJ/mol}$
+
+    d) $\Delta H^\circ_f = -297.4\text{kJ/mol}$
+  }
+\end{quote}
+
+5. A bath tub contains 75 gal of water at a temperature of 110 F, which is scalding hot.
+Estimate the volume of 50 F cold tap water needed to bring the temperature to a more
+comfortable 104 F. Assume that the bath tub is thermally insulated. Water has a density
+of approximately 997 kg/m$^3$ and a specific heat capacity of 4.18 J/(g K).
+
+\begin{quote}
+  {\color{blue} $m_h$ is mass (kg) of hot bath, $m_c$ is the mass (kg) of the cold tap
+    water, $C$ is heat capacity of water and $\Delta T$ is the change in temperature
+
+    \begin{align}
+      m_h C \Delta T_h & = m_c C \Delta T_c \\
+      %  m_h \Delta T_h & = m_c \Delta T_c \\
+      %  -283.0543*(40 - 43.3333) & = m_c (40 - 10) \\
+      m_c & = 31.450446
+    \end{align}
+
+    The volume needed is 8.332 galllons of $50^\circ\text{F}$
+  }
+\end{quote}
 
 \pagebreak
 
