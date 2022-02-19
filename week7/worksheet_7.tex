@@ -82,7 +82,7 @@ to 3 significant figures.
 3. (6 pts) \textbf{Relating Free Energy and Equilibrium Constant} Supposed a reaction
 is given by:
 \begin{center}
-  aA + bB $\rightarrow$ cC + dD
+  \ce{aA + bB <=> cC + dD}
 \end{center}
 where a, b, ... are the coefficients and A, B, ..., C, D are the reactants and products.
 
@@ -119,10 +119,10 @@ the \textit{least} molar entropy?
 
 \vspace{3in}
 
-5. (6 pts) \textbf{Air Pollutants} Sulfur trioxide SO$_3$ and nitrogen oxide NO can react in
+5. (7 pts) \textbf{Air Pollutants} Sulfur trioxide SO$_3$ and nitrogen oxide NO can react in
 the atmosphere as follows:
 \begin{center}
-  SO$_3$(g) + NO(g) $\rightarrow$ SO$_2$(g) + NO(g).
+  \ce{SO$_3$(g) + NO(g) <=> SO$_2$(g) + NO$_2$(g)}.
 \end{center}
 (a) Predict the effect of the following changes to the amount of NO$_2$ when the reacton
 has come to equilibrium in a stainless steel bulb equipped with entrants for chemicals
@@ -132,13 +132,57 @@ has come to equilibrium in a stainless steel bulb equipped with entrants for che
 \item the pressure is tripled by pumping in helium
 \end{enumerate}
 
-(b) Given that a certan temprature $K = 6.0\times 10^3$, calculate the amount (in moles)
+(b) For each scenario in part (a), describe the ``driving force'' in terms of the thermodynamic
+quantities. \textit{Hint:} Recall the lectures in week 6.
+
+(c) Given that at a certain temprature $K = 6.0\times 10^3$, calculate the amount (in moles)
 of NO that must be added to a $1.00$ L vesssel containing 0.245 mol SO$_3$(g) to form
 0.240 mol SO$_2$(g) at equilibrium. Report to 3 significant figures.
 
 \pagebreak
 
-6. (4 pts) In a sealed 1.75 L vessel at 250$^\circ$C, equilibrium is established between
+6. (6 pts) \textbf{Van't Hoff Equation} The Van't Hoff equation is often used in thermodynamics
+to show the equilibrium constant $K$ dependence on temperature $T$. 
+
+\begin{equation}
+  \ln K = -\frac{\Delta H^\circ}{RT} + \frac{\Delta S^\circ}{R}
+  \label{eqn:van_hoff}
+\end{equation}
+Using Eqn. \ref{eqn:van_hoff}, determine the $\Delta S^\circ$ and $\Delta H^\circ$ for the following
+reaction:
+\begin{center}
+  \ce{NH$_3$(g) + ClF$_3$(g) <=> HF(g) + N$_2$(g) + Cl$_2$(g)}
+\end{center}
+Report to 3 significant figures. Here are the following equilibrium partial pressures $P$ of each
+gas species $X$ at various $T$. \textit{Hint:} Create a scatter plot.
+
+\begin{table}[hbpt]
+  \caption{Equilibrium partial pressure $P(X)$ in bar at various $T$ in $^\circ$C}
+  \center
+  \begin{tabular}{c|ccccc}
+    & Temperature \\
+    Partial Pressure & 10$^\circ$C & 100$^\circ$C & 300$^\circ$C & 900$^\circ$C & 1800$^\circ$\\
+    \hline
+    P(N$_2$)    & 0.370 & 0.470 & 0.731 & 0.831 & 0.882 \\
+    P(Cl$_2$)   & 0.253 & 0.389 & 0.579 & 0.619 & 0.676 \\
+    P(HF)       & 0.290 & 0.450 & 0.612 & 0.568 & 0.600 \\
+    P(NH$_3$)   & 0.215 & 0.352 & 0.490 & 0.530 & 0.580 \\
+    P(ClF$_3$)  & 0.120 & 0.215 & 0.514 & 0.540 & 0.606 
+  \end{tabular}
+\end{table}
+
+% NH3:  Hf -45.94 kJ/mol and S 192.77 J/(mol K)
+% ClF3: Hf -158.87 kJ/mol and S 281.59 J/(mol K)
+% HF:   Hf -273.30 kJ/mol and S 173.779 J/(mol K)
+% N2:   Hf 0 kJ/mol and S 191.609 J/(mol K)
+% Cl2:  Hf 0 kJ/mol and S 223.081 J/(mol K)
+%
+% Standard Enthalpy -68.49 kJ/mol => slope -8.2364165 T
+% Standard Entropy  114.109 J/(mol K) => y-int 13.724
+
+\pagebreak
+
+7. (4 pts) In a sealed 1.75 L vessel at 250$^\circ$C, equilibrium is established between
 PCl$_5$(g) and its dissociation products, PCl$_3$(g) and Cl$_2$(g). The quantities found
 at equilibrium are 0.562g PCl$_5$, 1.950g PCl$_3$, and 1.007g Cl$_2$. What is the value of
 $K_c$ and $K_p$ for the reaction. Report to 4 significant figures.
@@ -154,9 +198,9 @@ $K_c$ and $K_p$ for the reaction. Report to 4 significant figures.
 %
 % https://doi.org/10.1016/j.applthermaleng.2019.02.072
 
-\vspace{2in}
+\vspace{3in}
 
-7. (4 pts) \textit{Extra Credit:} Determine $K_c$ at 300K for the unbalanced equation
+8. (4 pts) \textit{Extra Credit:} Determine $K_c$ at 300K for the unbalanced equation
 \begin{center}
   \ce{CH$_4$(g) <=> C$_2$H$_2$(g) + H$_2$(g)}
 \end{center}
