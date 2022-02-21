@@ -1,0 +1,103 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Preamble
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt]{article}
+%
+% Packages and other includes
+% Pagination
+\usepackage[letterpaper, margin=1in]{geometry}
+\usepackage{emptypage}
+\usepackage{mhchem}
+%
+% Fonts
+\usepackage[T1]{fontenc} % best for Western European languages
+\usepackage{lmodern} % Latin Modern instead of CM
+\usepackage{textcomp} % required to get special symbols
+%
+% Math
+\usepackage{amsmath, amssymb}
+\usepackage{braket}
+%
+% Graphics, floats, tables
+\usepackage{graphicx, color, float, array}
+%
+% Hyperlinks
+\usepackage{hyperref}
+%
+%
+% Definitions and settings
+% Paragraph indent and spacing
+\setlength{\parskip}{0.4\baselineskip}
+\setlength{\parindent}{0in}
+%
+%
+% Title, authors, date
+\title{\textbf{Midterm 2 Problems}}
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Main document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+
+\begin{document}
+
+\maketitle
+
+1. (4 pts) \textbf{Van't Hoff Equation} In a decomposition reaction, the nitrosyl chloride
+ClNO(g) decomposes into NO(g) and Cl$_2$(g).
+\begin{center}
+  \ce{2 ClNO(g) <=> 2 NO(g) + Cl$_2$(g)}
+\end{center}
+Using the Van't Hoff equation
+\begin{equation}
+  \ln K = -\frac{\Delta H^\circ}{RT} + \frac{\Delta S^\circ}{R}
+  \label{eqn:van_hoff}
+\end{equation}
+and the gas phase thermochemistry data, determine the following. Report
+all results to 3 significant figures.
+
+(a) Temperature at which the equilibrium constant $K_p$ is greater than 1.
+
+(b) At 300K, suppose the reaction is at equilibrium and suddenly, the temperature
+is increased. Describe the ``driving force'' in terms of the thermodynamic
+quantities.
+
+\begin{table}[hbpt]
+  \caption{Reported $\Delta H^\circ$ (kJ/mol) and $\Delta S^\circ$ (J/(mol K))}
+  \centering
+  \begin{tabular}{c|cc}
+    & $\Delta H^\circ$ & $\Delta S^\circ$ \\
+    \hline
+    NO        &  90.29 & 210.76 \\
+    ClNO      &  51.71 & 261.68 \\
+    Cl$_2$    &  0.00 & 223.08
+  \end{tabular}
+\end{table}
+
+\pagebreak
+
+2. \textbf{Mixing of Ideal Gas} Assume ideal gas conditions. At 298.15K, equal
+amounts of nitrogen dioxide NO$_2$(g) and dinitrogen tetraoxide N$_2$O$_4$(g) are
+separated into equal volumes $V$, see Fig. \ref{fig:mix}. The initial pressures of the
+NO$_2$(g) and N$_2$O$_4$(g) are 
+The valve is then opened allowing the gases to mix.
+Report results to 2 significant figures.
+
+\begin{figure}[hbpt]
+  \centering
+  \includegraphics[scale=0.25]{mix_ideal.png}
+  \caption{Illustration of gases A and B separated into equal volumes.}
+  \label{fig:mix}
+\end{figure}
+
+(a) Determine the free energy of mixing $\Delta G_\text{mix}$.
+
+(b) N$_2$O$_4$(g) is known to decomposes into NO$_2$(g). Write the balanced
+chemical equation including states.
+
+(c) 
+
+\pagebreak
+
+\end{document}
