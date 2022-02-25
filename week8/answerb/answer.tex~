@@ -37,7 +37,7 @@
 %
 %
 % Title, authors, date
-\title{\textbf{Midterm 2a Problems}}
+\title{\textbf{Midterm 2 Problems}}
 %
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -174,14 +174,14 @@ a) Determine the total entalpy of the sample at 300 K.
     = & U - nRT \\
     = & \frac{5}{2}nRT - nRT \\
     = & (\frac{5}{2} - 1)(2.5\times 0.08206 \times 300) \\
-    = &  \text{92.3175 L atm} = 9.35 \text{ kJ}
+    = &  \text{92.3175 L atm} = 9.354 \text{ kJ}
   \end{align*}  
 }
 
 b) The pressure of the sample is doubled by reducing the volume to 0.5 L. The
 temperature is kept constant. Determine the total enthalpy.
 
-\brian{9.35 kJ}
+\brian{65.4 kJ}
 
 c) Estimate the root mean square (rms) velocity of the ethyne molecules in m/s at 300 K.
 The mass of a single ethyne molecule is $4.324\times 10^{-26}$ kg.

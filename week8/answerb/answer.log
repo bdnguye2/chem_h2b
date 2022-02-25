@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2021.10.12)  24 FEB 2022 18:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2021.10.12)  24 FEB 2022 18:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -573,14 +573,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Warning: No \author given.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 61.
+(Font)              <10.95> on input line 52.
 [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<vant_hoff.jpeg, id=19, 3637.59pt x 1586.92876pt>
+<vant_hoff.jpeg, id=23, 3637.59pt x 1586.92876pt>
 File: vant_hoff.jpeg Graphic file (type jpg)
 <use vant_hoff.jpeg>
-Package pdftex.def Info: vant_hoff.jpeg  used on input line 154.
+Package pdftex.def Info: vant_hoff.jpeg  used on input line 152.
 (pdftex.def)             Requested size: 363.78032pt x 158.70216pt.
 
 [2] [3 <./vant_hoff.jpeg>] [4] (./answer.aux)
@@ -590,16 +590,16 @@ Package rerunfilecheck Info: File `answer.out' has not changed.
 Here is how much of TeX's memory you used:
  11478 strings out of 478599
  173469 string characters out of 5854099
- 512598 words of memory out of 5000000
+ 518598 words of memory out of 5000000
  29151 multiletter control sequences out of 15000+600000
  445854 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,16n,80p,394b,418s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/20
-21/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2021/texmf-d
-ist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2021/texmf-dist/fonts/
-enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/l
+21/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2021/texmf-dist/
+fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/
+dvips/lm/lm-mathit.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/l
 m/lmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx12.p
 fb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/l
 ocal/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texli
@@ -610,7 +610,7 @@ blic/lm/lmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy
 10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></us
 r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
 
-Output written on answer.pdf (4 pages, 453981 bytes).
+Output written on answer.pdf (4 pages, 453729 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  66 compressed objects within 1 object stream
