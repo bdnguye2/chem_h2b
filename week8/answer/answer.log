@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2021.10.12)  28 FEB 2022 15:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2021.10.12)  1 MAR 2022 15:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**answer.tex
+**answer
 (./answer.tex
 LaTeX2e <2021-06-01> patch level 1
 L3 programming layer <2021-08-27>
@@ -580,7 +580,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 <vant_hoff.png, id=19, 543.10365pt x 371.0579pt>
 File: vant_hoff.png Graphic file (type png)
 <use vant_hoff.png>
-Package pdftex.def Info: vant_hoff.png  used on input line 155.
+Package pdftex.def Info: vant_hoff.png  used on input line 159.
 (pdftex.def)             Requested size: 217.23761pt x 148.42052pt.
 
 [2] [3 <./vant_hoff.png>] [4] (./answer.aux)
@@ -594,7 +594,7 @@ Here is how much of TeX's memory you used:
  29151 multiletter control sequences out of 15000+600000
  445854 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,16n,80p,398b,489s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,16n,80p,394b,489s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/20
 21/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2021/texmf-d
@@ -610,7 +610,7 @@ blic/lm/lmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy
 10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></us
 r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
 
-Output written on answer.pdf (4 pages, 196150 bytes).
+Output written on answer.pdf (4 pages, 194756 bytes).
 PDF statistics:
  100 PDF objects out of 1000 (max. 8388607)
  67 compressed objects within 1 object stream
