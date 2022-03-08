@@ -1,0 +1,75 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Preamble
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt]{article}
+%
+% Packages and other includes
+% Pagination
+\usepackage[letterpaper, margin=1in]{geometry}
+\usepackage{emptypage}
+\usepackage{ulem}
+\usepackage{xcolor}
+\usepackage{mhchem}
+%
+% Fonts
+\usepackage[T1]{fontenc} % best for Western European languages
+\usepackage{lmodern} % Latin Modern instead of CM
+\usepackage{textcomp} % required to get special symbols
+%
+% Math
+\usepackage{amsmath, amssymb}
+\usepackage{braket}
+%
+% Graphics, floats, tables
+\usepackage{graphicx, color, float, array}
+%
+% Hyperlinks
+\usepackage{hyperref}
+%
+%
+% Definitions and settings
+% Paragraph indent and spacing
+\setlength{\parskip}{0.4\baselineskip}
+\setlength{\parindent}{0in}
+%
+%
+% Title, authors, date
+\title{\textbf{Worksheet 9}}
+\date{\vspace{-2em}March 4th, 2022}
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Main document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+
+\begin{document}
+
+\maketitle
+
+Collaborations are encouraged and students must report all collaborators
+on each assignment. All external sources (websites, books) must be
+cited. An \textit{extra credit} (\textit{EC}) problem will be available per
+assignment. Please submit a completed homework on-time to receive \textit{EC}
+and no partial \textit{EC} (all parts must be correct) will be given out.
+Additional problems are listed at the end of each assignment. This week's
+assignment is due \textit{Monday, March 14th at 10:30am.}
+
+1. \textbf{Concentrations of Solutions} An car antifreeze mixture is made by mixing
+equal volumes of ethylene glycol (d = 1.114 g/mL, molar mass 62.07 g/mol) and water
+(d = 1.000 g/mL) at 20.0$^\circ$C. The density of the solution is 1.070 g/mL. Determine
+the mass percent, molarity, molality, and mole fraction.
+
+%https://www.chemteam.info/Solutions/Molality-molarity-density-mass-precent-mole-ratio-Prob11-25.html
+
+2. \textbf{Henry's Law}
+
+3. \textbf{Raoult's Law}
+
+4. 
+
+\vfill
+\textbf{Optional Additional Problems:} Ch. 12 - odd problems $25 - 47$, $79 - 85$;
+Ch. 13 - odd problems $25 - 35$, $47 - 55$, $65 - 93$
+
+\end{document}
