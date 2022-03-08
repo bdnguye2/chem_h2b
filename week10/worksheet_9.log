@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2021.10.12)  7 MAR 2022 23:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2021.10.12)  8 MAR 2022 02:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**worksheet_9
+**worksheet_9.tex
 (./worksheet_9.tex
 LaTeX2e <2021-06-01> patch level 1
 L3 programming layer <2021-08-27>
@@ -576,32 +576,32 @@ LaTeX Warning: No \author given.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 60.
-
-Package hyperref Warning: Suppressing empty link on input line 96.
-
-
-Package hyperref Warning: Suppressing empty link on input line 104.
-
-<cubic.png, id=4, 1068.99374pt x 388.45125pt>
-File: cubic.png Graphic file (type png)
-<use cubic.png>
-Package pdftex.def Info: cubic.png  used on input line 108.
-(pdftex.def)             Requested size: 320.70059pt x 116.53627pt.
 [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2 <./cubic.png>] (./worksheet_9.aux)
+<nacl_alcl3.png, id=22, 953.5625pt x 524.96124pt>
+File: nacl_alcl3.png Graphic file (type png)
+<use nacl_alcl3.png>
+Package pdftex.def Info: nacl_alcl3.png  used on input line 103.
+(pdftex.def)             Requested size: 286.07095pt x 157.48958pt.
+<cubic.png, id=25, 1068.99374pt x 388.45125pt>
+File: cubic.png Graphic file (type png)
+<use cubic.png>
+Package pdftex.def Info: cubic.png  used on input line 114.
+(pdftex.def)             Requested size: 320.70059pt x 116.53627pt.
+
+[2 <./nacl_alcl3.png> <./cubic.png>] (./worksheet_9.aux)
 Package rerunfilecheck Info: File `worksheet_9.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 11457 strings out of 478599
- 173224 string characters out of 5854099
- 507705 words of memory out of 5000000
- 29138 multiletter control sequences out of 15000+600000
+ 11468 strings out of 478599
+ 173393 string characters out of 5854099
+ 504796 words of memory out of 5000000
+ 29146 multiletter control sequences out of 15000+600000
  446118 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,7n,80p,399b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,7n,80p,403b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
 cal/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/20
 21/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2021/texmf-d
@@ -615,10 +615,10 @@ cal/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive
 type1/public/lm/lmri10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
 ic/lm/lmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy
 8.pfb>
-Output written on worksheet_9.pdf (2 pages, 280518 bytes).
+Output written on worksheet_9.pdf (2 pages, 366764 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
- 4 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 84 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
