@@ -1,0 +1,97 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Preamble
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt]{article}
+%
+% Packages and other includes
+% Pagination
+\usepackage[letterpaper, margin=1in]{geometry}
+\usepackage{emptypage}
+%
+% Fonts
+\usepackage[T1]{fontenc} % best for Western European languages
+\usepackage{lmodern} % Latin Modern instead of CM
+\usepackage{textcomp} % required to get special symbols
+%
+% Math
+\usepackage{amsmath, amssymb}
+\usepackage{braket}
+%
+% Graphics, floats, tables
+\usepackage{graphicx, color, float, array}
+%
+% Hyperlinks
+\usepackage{hyperref}
+%
+%
+% Definitions and settings
+% Paragraph indent and spacing
+\setlength{\parskip}{0.4\baselineskip}
+\setlength{\parindent}{0in}
+%
+%
+% Title, authors, date
+\title{\textbf{Midterm Review 2}}
+\date{\vspace{-2em}January 21, 2022}
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Main document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+
+\begin{document}
+
+\maketitle
+
+This is a checklist based on the lecture and textbook materials. It is not
+expected to be an all encompassing study guide and provides a guideline for
+your studies.
+
+\begin{itemize}
+\item Review real-world applications (lecture, quiz and textbook materials)
+\item[] \textbf{Entropy and 2nd Law of Thermodynamics}
+\item Quantify irreversibility/``quality loss'' of energy
+\item[] $\Delta S = \frac{Q_\text{rev}}{T}$
+\item Clausius Inequality
+\item[] $\Delta S^\text{sys} \geq \frac{Q_\text{rev}}{T}$
+\item Entropy dependence on
+  \begin{itemize}
+  \item Temperature
+  \item Volume and pressure (Ideal Gas)
+  \end{itemize}
+\item 3rd Law of Thermodynamics
+\item Gibbs-Duhem Equation
+\item Equilibrium and thermodynamic potentials - $S(U,V)$ is maximal,
+  $U(S,V)$ and $H(S,P)$ are minimal
+\item Gibbs free energy $G = H - TS$
+  \begin{itemize}
+  \item Spontaneity
+  \item Exergonic and endergonic
+  \item Free energies of reaction $\Delta G = \Delta H - T\Delta S$
+  \item Temperature dependence - enthalpy and entropy driven
+  \item Pressure dependence $G(P) = G^\circ + nRT\ln\frac{P}{P^\circ}$
+  \item Ideal gas mixtures
+  \end{itemize}
+\item[] \textbf{Chemical Equilibrium}
+\item Free energy of mixture vary with composition for all states
+  $G_i = G_i^\circ + n_iRT\ln a_i$ where $a_i$ is activity (dimensionless)
+\item Relating reaction quotient $Q$ and free energy $\Delta G$
+\item Law of Mass Action
+\item Properties of equilibrium constants
+\item Direction of reaction and ``driving force'' in terms of thermodynamic
+  quantities
+\item[] \textbf{Statistical Thermodynamics}
+\item Microstates and macrostates
+\item Boltzmann statistics $S = k_b\ln W$
+\item Estimating entropy changes in chemical reactions
+\item Equipartition Theorem - In thermal equilibrium, the average energy per
+  quadratic degree of freedom in the energy is $\frac{1}{2}k_bT$
+\item[] \textbf{Phase Equilibria}
+\item Vapor Pressure for liquid-gas equilibrium e.g. water
+\item Thermodynamics of vaporization
+\item Clausius-Clapeyron Equation - Vapor Pressure Curves
+\item[] $P_f = P_ie^{-\frac{\Delta H_v}{R}(\frac{1}{T_f}-\frac{1}{T_i})}$
+\end{itemize}
+
+\end{document}
